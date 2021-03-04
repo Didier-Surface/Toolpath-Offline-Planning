@@ -8,7 +8,7 @@
 - git:
     local-name: noether
     uri: 'https://github.com/drchrislewis/noether.git'
-    version: f5a5dc3614dde0d30ee5979026a577d015be1341
+    version: 82c6858294ca1aa675ae93b6ab8e3cbd427ececa
 
 # heat_raster current master
 - git:
@@ -41,7 +41,7 @@
     version: d338f9e87b92b548dbcccffce8c7997eed3ce2e1
 
 # Rviz installed from source (definitely required so that the selection tools work) 
--git: 
-   local-name: rviz
-   uri: https://github.com/ros-visualization/rviz.git
-   version: 882ee38782517e60a69734c471eb9c09c208088a
+- git: 
+    local-name: rviz
+    uri: https://github.com/ros-visualization/rviz.git
+    version: 882ee38782517e60a69734c471eb9c09c208088a
