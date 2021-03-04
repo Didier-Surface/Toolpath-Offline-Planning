@@ -8,13 +8,13 @@
 - git:
     local-name: noether
     uri: 'https://github.com/drchrislewis/noether.git'
-    version: d7c5a52cb72aa6b828a5c03433a9afac70e16cdd
+    version: f5a5dc3614dde0d30ee5979026a577d015be1341
 
 # heat_raster current master
 - git:
     local-name: heat_raster
     uri: 'https://github.com/swri-robotics/heat_raster.git'
-    version: 
+    version: a8b21d385703a6c68f9f8b325214a8396fe83df9
 
 # RViz Tool Cursor
 - git:
@@ -22,14 +22,26 @@
     uri: 'https://github.com/marip8/rviz_tool_cursor.git'
     version: 0.1.0
 
-# cmake_common_scripts
+# ros_industrial_cmake_boilerplate
 - git:
-    local-name: cmake_common_scripts
-    uri: 'https://github.com/ros-industrial/cmake_common_scripts.git'
-    version: 15450c289e1a92c51e9b6d953f4d07d7e7ccaa18
+    local-name: ros_industrial_cmake_boilerplate
+    uri: 'https://github.com/ros-industrial/ros_industrial_cmake_boilerplate.git'
+    version: cefea9204d07c83705a7145531217efc57609387
 
 # Message serialization
 - git:
     local-name: message_serialization
     uri: 'https://github.com/swri-robotics/message_serialization.git'
-    version: 81bad7772dae6b134fe8ffebedf8de145d854a39
+    version: c054e73dd8abc98b9aecef1ce96f4fec5394d890
+
+# Geometric shapes installed from source (not sure this is necessary)
+- git: 
+    local-name: geometric_shapes
+    uri: 'https://github.com/ros-planning/geometric_shapes.git'
+    version: d338f9e87b92b548dbcccffce8c7997eed3ce2e1
+
+# Rviz installed from source (definitely required so that the selection tools work) 
+-git: 
+   local-name: rviz
+   uri: https://github.com/ros-visualization/rviz.git
+   version: 882ee38782517e60a69734c471eb9c09c208088a
